@@ -14,10 +14,9 @@ contracts:
       - event: RoundCreated(uint256 value, uint256 updaterTimestamp, bytes32 dataFeedId, uint256 blockTimestamp, uint256 roundId, uint256 updaterId)
 
 # Enable unordered multichain mode for parallel processing
-unordered_multichain_mode: true
 
 # Network-specific configurations
-networks:
+chains:
   # - id: 1 # Ethereum Mainnet
   #   start_block: 21900000
   #   contracts:
