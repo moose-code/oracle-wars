@@ -1,8 +1,5 @@
 import assert from "assert";
-import {
-  TestHelpers,
-  AccessControlledOCR2Aggregator_AnswerUpdated,
-} from "generated";
+import { TestHelpers, AccessControlledOCR2Aggregator_AnswerUpdated } from "envio";
 const { MockDb, AccessControlledOCR2Aggregator } = TestHelpers;
 
 describe("AccessControlledOCR2Aggregator contract AnswerUpdated event tests", () => {
